@@ -9,8 +9,10 @@
 ### Installation
 Download the latest version [here](https://github.com/Dilabun/Shogunate/releases/download/Shogunate.exe/shogunsetup.exe).
 
+### Note
+For some reason, Windows detects the setup.exe as potential malware. If you get the error when installing please follow these steps:
 
-
+Start> Settings> Update and Security> Windows Security> Virus & Threat Protection> Manage Settings> Exclusions> Add Shogunate
 
 
 
