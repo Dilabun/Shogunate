@@ -6797,6 +6797,8 @@ void MainWindow::opponent7()
             chosen = "samurai";
         } else if (randomIndex == 9 || randomIndex == 10) {
             chosen = "hatamoto";
+        }
+
 
 
         if (randomIndex2 == 1 && attacker4 == false) {
@@ -6949,7 +6951,7 @@ void MainWindow::opponent7()
         }
 
 
-    } while ((energy > 1) && (attacker4 == false || attacker5 == false || attacker6 == false));
+    while ((energy > 1) && (attacker4 == false || attacker5 == false || attacker6 == false));
 
 }
 
@@ -7780,7 +7782,7 @@ void MainWindow::opponent10()
     QMovie *upgrade = new QMovie(":/images/spawn.gif");
     QMovie *newthing = new QMovie(":/images/newthing.gif");
     srand(time(nullptr));  //man i got no damn clue what this is!
-    int energy = 8;
+    int energy = 9;
     int upgradeEnergy = 3;
 
     int randomIndexSpell = 3;
@@ -8804,17 +8806,17 @@ void MainWindow::giveCardSelection()
                          kenshilevel1, kenshilevel1, kenshilevel1, kenshilevel1,
                          kyudolevel1, kyudolevel1, kyudolevel1, kyudolevel1,
                          samurai, samurai, strike,
-                         upgrade, upgrade, upgrade, upgrade, upgrade,
+                         upgrade, upgrade, upgrade, blessing, expell,
                          diminish, wager, expell, shogun, hatamoto, goshi, goshi,
                          fortify, blessing};
 
     // Corresponding values for each pixmap
-    QString values[] = {"ronin", "ronin", "ronin", "ronin", // Two extra entries for ronin
-                        "kenshi", "kenshi", "kenshi", "kenshi", // Two extra entries for kenshi
+    QString values[] = {"ronin", "ronin", "ronin", "ronin",
+                        "kenshi", "kenshi", "kenshi", "kenshi",
                         "kyudo", "kyudo", "kyudo", "kyudo",
                         "samurai", "samurai", "strike",
-                        "upgrade", "upgrade", "upgrade", "upgrade", "upgrade",
-                        "diminish", "wager", "expell", "shogun", "hatamoto", "goshi", "goshi", // Two extra entries for goshi
+                        "upgrade", "upgrade", "upgrade", "blessing", "expell",
+                        "diminish", "wager", "expell", "shogun", "hatamoto", "goshi", "goshi",
                         "fortify", "blessing"};
 
 
@@ -8842,9 +8844,9 @@ void MainWindow::giveCardSelection()
     }
 
 
-   cardsArray[0] = "";
-   cardsArray[4] = "";
-   ui->container1card_2->setPixmap(QPixmap());
+  // cardsArray[0] = "";
+  cardsArray[4] = "";
+  // ui->container1card_2->setPixmap(QPixmap());
    ui->container1card_6->setPixmap(QPixmap());
     ui->container1card_2->update();
     ui->container1card_3->update();
