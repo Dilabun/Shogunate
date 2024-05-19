@@ -7,7 +7,7 @@
 ![github  (1)](https://github.com/Dilabun/Shogunate/assets/111297824/30379163-ba87-4535-9996-f5b4ff432f2e)
 
 ### Installation
-Download the latest version [here](https://github.com/Dilabun/Shogunate/releases/download/Shogunate.exe/shogunsetup.exe).
+Download the latest version [here](https://github.com/Dilabun/Shogunate/releases/download/v1.16/shogunsetup.exe).
 
 ### Note
 For some reason, Windows detects the setup.exe as potential malware. If you get the error when installing please follow these steps:
