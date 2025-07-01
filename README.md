@@ -1,3 +1,4 @@
+# NOTE: PLEASE INSTALL FONT [DURAMADROP ONE](https://fonts.google.com/specimen/Darumadrop+One) MANUALLY
 ![Black Minimal Motivation Quote LinkedIn Banner (1)](https://github.com/Dilabun/Shogunate/assets/111297824/2eb11acc-10d5-4552-871f-34702b68238b)
 ### Turn-Based Strategy *RNG* Card Game
 ![Screenshot (268)](https://github.com/Dilabun/Shogunate/assets/111297824/603e29b6-d2a3-4c55-9a62-6d0a930ac5a6)
@@ -8,12 +9,6 @@
 
 ### Installation
 Download the latest version [here](https://github.com/Dilabun/Shogunate/releases/download/v1.16/shogunsetup.exe).
-
-### Note
-For some reason, Windows detects the setup.exe as potential malware. If you get the error when installing please follow these steps:
-
-Start> Settings> Update and Security> Windows Security> Virus & Threat Protection> Manage Settings> Exclusions> Add Shogunate
-
 
 
 
